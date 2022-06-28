@@ -5,11 +5,11 @@ import { MainApp } from '../../pages';
 const Routes = () => {
   return (
     <Router>
-        <Switch>
-            <Route path="/">
-                <MainApp />
-            </Route>
-        </Switch>
+      <Switch>
+        <Route path="/">
+          <MainApp />
+        </Route>
+      </Switch>
     </Router>
   )
 }

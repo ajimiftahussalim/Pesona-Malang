@@ -5,35 +5,41 @@ import { Home } from '..';
 import { Header } from '../../components';
 import Footer from '../../components/molekuls/Footer';
 import AboutUs from '../AboutUs';
+import ContactUs from '../ContactUs';
 import DetailBlog from '../DetailTour';
 import ListTours from '../ListTour';
+import MapTour from '../MapTour';
 import './mainApp.scss';
 
 const MainApp = () => {
   return (
     <div className='main-app-wrapper'>
-        <Header />
-        <div className='content-wrapper'>
-            <Router>
-                <Switch>
-                    <Route path="/list-tour">
-                        <ListTours />
-                    </Route>
-                    <Route path="/map-tours">
-                    </Route>
-                    <Route path="/detail-tour/:id">
-                        <DetailBlog />
-                    </Route>
-                    <Route path="/about-us">
-                        <AboutUs />
-                    </Route>
-                    <Route path="/">
-                        <Home />
-                    </Route>
-                </Switch>
-            </Router>
-        </div>
-        <Footer />
+      <Header />
+      <div className='content-wrapper'>
+        <Router>
+          <Switch>
+            <Route path="/list-tour">
+              <ListTours />
+            </Route>
+            <Route path="/map-tours">
+              <MapTour />
+            </Route>
+            <Route path="/detail-tour/:id">
+              <DetailBlog />
+            </Route>
+            <Route path="/contact-us">
+              <ContactUs />
+            </Route>
+            <Route path="/about-us">
+              <AboutUs />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
+      </div>
+      <Footer />
     </div>
   )
 }

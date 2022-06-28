@@ -6,7 +6,7 @@ import { ImgJumbotron } from '../../assets';
 const Home = () => {
   return (
     <div className='container'>
-      <Gap height={20} />
+      <Gap height={90} />
       <Jumbotron img={ImgJumbotron} />
       <Gap height={20} />
     </div>
