@@ -32,53 +32,54 @@ const DetailTour = (props) => {
 
   return (
   <div>
-    <Gap height={90} />
+    <Gap height={120} />
     <div className='container col-xxl-8 px-4'>
       <div className='d-flex justify-content-end mt-0'>
         <a href='/list-tour' className='p-2 px-3 text-muted fs-3'>{backIcon}</a>
       </div>
       <div className='row flex-lg-row g-5 py-5'>
         <div className='col-10 col-sm-8 col-lg-6 mt-2'>
-          <img 
+          <img
+            tabIndex={0} 
             src={`http://localhost:4000/${data.image}`} 
             className='rounded d-block img-fluid align-top'
             style={{objectFit: 'cover', width: '700px'}} 
-            alt={`img ${data.name}`} 
+            alt={`gambar destinasi wisata ${data.name}`} 
             loading='lazy' />
         </div>
         <div className='col-lg-6 mt-3'>
         <h2 className='fs-2 text-info fw-bold'>{data.name}</h2>
-          <p className='text-secondary'>Data Terakhir di update tanggal: {showFormattedDate(data.updatedAt)}</p>
+          <p tabIndex={0} className='text-secondary'>Data Terakhir di update tanggal: {showFormattedDate(data.updatedAt)}</p>
           <div className='table-responsive'>
             <table class="table table-bordered">
             <tbody className='fw-lighter'>
               <tr>
-                <td>Kategori</td>
-                <td>{data.category}</td>
+                <td tabIndex={0}>Kategori</td>
+                <td tabIndex={0}>{data.category}</td>
               </tr>
               <tr>
-                <td>Alamat</td>
-                <td>{data.address}</td>
+                <td tabIndex={0}>Alamat</td>
+                <td tabIndex={0}>{data.address}</td>
               </tr>
               <tr>
-                <td>Jam Operasional</td>
-                <td>{data.operationalHour}</td>
+                <td tabIndex={0}>Jam Operasional</td>
+                <td tabIndex={0}>{data.operationalHour}</td>
               </tr>
               <tr>
-                <td>Tiket</td>
-                <td className='fw-bold text-warning'>{data.ticket}</td>
+                <td tabIndex={0}>Tiket</td>
+                <td tabIndex={0} className='fw-bold text-warning'>{data.ticket}</td>
               </tr>
               <tr>
-                <td>Rating</td>
+                <td tabIndex={0}>Rating</td>
                 <td>
-                  <div className='mb-3'style={{color: 'gold'}}>
+                  <div tabIndex={0} className='mb-3'style={{color: 'gold'}} aria-label='rating destinasi wisata'>
                     {Array(data.rating).fill(<StarIcon className='star'/>)}
                   </div>
                 </td>
               </tr>
               <tr>
-                <td>Deskripsi</td>
-                <td>{data.description}</td>
+                <td tabIndex={0}>Deskripsi</td>
+                <td tabIndex={0}>{data.description}</td>
               </tr>
             </tbody>
             </table>
@@ -86,7 +87,7 @@ const DetailTour = (props) => {
         </div>
       </div>
     </div>
-    <Gap height={70} />
+    <Gap height={40} />
   </div>
   )
 }

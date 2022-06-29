@@ -13,26 +13,29 @@ const Footer = () => {
           <section>
             <div className='row'>
               <div className='col-md-3 mx-auto mt-3'>
-                <img src={Logo} width='150' height='150' className='mb-1' style={{display: 'block',margin: '0 auto'}} alt='logo footer' />
+                <img tabIndex={0} src={Logo} width='150' height='150' className='mb-1' style={{display: 'block',margin: '0 auto'}} alt='logo pesona malang' />
                 <div className='text-center mb-3'>
                   <a
                     className='btn btn-outline-light btn-floating text-primary'
+                    style={{padding: '10px'}}
                     href='/'
                     role='button'><FacebookIcon />
                   </a>
                   <a
                     className='btn btn-outline-light btn-floating text-info'
+                    style={{padding: '10px'}}
                     href='/'
                     role='button'><TwitterIcon />
                   </a>
                   <a
                     className='btn btn-outline-light btn-floating text-danger'
+                    style={{padding: '10px'}}
                     href='/'
                     role='button'><YouTubeIcon />
                   </a>
                   <a
                     className='btn btn-outline-light btn-floating'
-                    style={{color: '#833AB4'}}
+                    style={{color: '#833AB4', padding: '10px'}}
                     href='/'
                     role='button'><InstagramIcon />
                   </a>
@@ -40,31 +43,31 @@ const Footer = () => {
               </div>
               <hr className='w-100 clearfix d-md-none' />
               <div className='col-md-6 col-lg-5 mt-3'>
-                <h6 className='text-uppercase mb-4 fw-bold'>Sistem Informasi dan Pemetaan Geografis Destinasi Wisata Kota Malang</h6>
-                <p className='fw-lighter'>
+                <h6 tabIndex={0} className='text-uppercase mb-4 fw-bold'>Sistem Informasi dan Pemetaan Geografis Destinasi Wisata Kota Malang</h6>
+                <p tabIndex={0} className='fw-lighter'>
                   Memberikan referensi yang lengkap terkait destinasi wisata di kota malang yang akan
                   memudahkan kamu untuk memilih destinasi wisata mana yang ingin kamu kunjungi.
                 </p>
               </div>
               <hr className='w-100 clearfix d-md-none' />
               <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mt-3'>
-                <h6 className='text-uppercase mb-4 fw-bold'>
+                <h6 tabIndex={0} className='text-uppercase mb-4 fw-bold'>
                   Navigation
                 </h6>
                 <p>
-                  <a href='/' className='text-decoration-none text-info'>Home</a>
+                  <a href='/' className='text-decoration-none text-info py-3'>Home</a>
                 </p>
                 <p>
-                  <a href='/list-tour' className='text-decoration-none text-info'>List Wisata</a>
+                  <a href='/list-tour' className='text-decoration-none text-info py-3'>List Wisata</a>
                 </p>
                 <p>
-                  <a href='/map-tour' className='text-decoration-none text-info'>Map Wisata</a>
+                  <a href='/map-tour' className='text-decoration-none text-info py-3'>Map Wisata</a>
                 </p>
                 <p>
-                  <a href='/about-us' className='text-decoration-none text-info'>Hubungi Kami</a>
+                  <a href='/about-us' className='text-decoration-none text-info py-3'>Hubungi Kami</a>
                 </p>
                 <p>
-                  <a href='/about-us' className='text-decoration-none text-info'>Tentang Kami</a>
+                  <a href='/about-us' className='text-decoration-none text-info py-3'>Tentang Kami</a>
                 </p>
               </div>
             </div>
@@ -73,8 +76,7 @@ const Footer = () => {
         <section className='p-3 pt-0'>
           <div className='text-center'>
             <div className='p-3'>
-              <span>© 2022 - </span>
-              <a href='/' className='text-decoration-none text-info'>Pesona Malang</a>
+              <span tabIndex={0}>© 2022 - Pesona Malang</span>
             </div>
           </div>
         </section>

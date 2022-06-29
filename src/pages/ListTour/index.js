@@ -26,8 +26,8 @@ const Home = () => {
 
   return (
     <div className='container'>
-      <Gap height={100} />
-      <h2 className='text-center text-info fw-bold'>Daftar Destinasi Wisata</h2>
+      <Gap height={120} />
+      <h2 tabIndex={0} className='text-center text-info fw-bold'>Daftar Destinasi Wisata</h2>
       <div className='d-flex flex-wrap mx-auto'>
       {dataTour.length !== 0 ?
         dataTour.map((tour) => {
@@ -47,12 +47,12 @@ const Home = () => {
             />
           )
         })
-      : <div className='text-danger text-center mx-auto'>Data Kosong</div>}
+      : <div tabIndex={0} className='text-danger text-center mx-auto'>Data Kosong</div>}
       </div>
       <div className='container text-center mt-2 fw-bold'>
-          <button className='btn btn-outline-light btn-floating text-secondary' onClick={previous}><ArrowBackIosIcon /></button>
-          <span className='px-2'>{page.currentPage} / {page.totalPage}</span>
-          <button className='btn btn-outline-light btn-floating text-secondary' onClick={next}><ArrowForwardIosIcon /></button>
+          <button className='btn btn-outline-light btn-floating text-secondary' style={{padding: '10px'}} onClick={previous}><ArrowBackIosIcon /></button>
+          <span tabIndex={0} className='px-2 fw-bold'>{page.currentPage} / {page.totalPage}</span>
+          <button className='btn btn-outline-light btn-floating text-secondary' style={{padding: '10px'}} onClick={next}><ArrowForwardIosIcon /></button>
         </div>
       <Gap height={40} />
     </div>

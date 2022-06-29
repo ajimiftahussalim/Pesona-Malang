@@ -9,14 +9,14 @@ const TourItem = (props) => {
     <>
       <div className='p-3 col-12 col-md-6 col-lg-4'>
         <div className='card' style={{width:'18rem;'}} >
-          <img src={image} height={200} class='card-img-top' style={{objectFit: 'cover'}} alt={`img ${name}`}/>
+          <img tabIndex={0} src={image} height={200} class='card-img-top' style={{objectFit: 'cover'}} alt={`gambar destinasi wisata ${name}`}/>
           <div className='card-body'>
-            <h2 className='fs-4 fw-bold'>{name}</h2>
-            <p className='text-secondary mb-1 fw-lighter'>{category}</p>
-            <div className='mb-3' style={{color: 'gold'}}>
+            <h2 tabIndex={0} className='fs-4 fw-bold'>{name}</h2>
+            <p tabIndex={0} className='text-secondary mb-1 fw-lighter'>{category}</p>
+            <div tabIndex={0} className='mb-3' style={{color: 'gold'}} aria-label='rating destinasi wisata'>
               {Array(rating).fill(<StarIcon className='star'/>)}
             </div>
-            <button className='btn btn-info text-white' onClick={() => history.push(`/detail-tour/${_id}`)}>View More</button>
+            <button className='btn btn-info text-white' style={{padding: '10px 12px'}} onClick={() => history.push(`/detail-tour/${_id}`)}>View More</button>
           </div>
         </div>
       </div>

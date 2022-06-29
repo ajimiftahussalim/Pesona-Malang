@@ -15,7 +15,7 @@ const MapTour = () => {
   const [currentPlaceId, setCurrentPlaceId] = useState(null);
   const [viewport, setViewport] = useState({
     width: '100%',
-    height: '100vh',
+    height: '70vh',
     latitude: -7.983908,
     longitude: 112.621391,
     zoom: 10,
@@ -65,14 +65,15 @@ const MapTour = () => {
             > 
               <div className='p-2' style={{width: '200px'}}>
                 <img 
+                  tabIndex={0}
                   src={`http://localhost:4000/${tour.image}`} 
                   width={'100%'} 
                   height={100} 
                   style={{objectFit: 'cover'}} 
-                  alt={`img ${tour.name}`} />
-                <h4 className='fw-bold mb-1 mt-1 text-info fs-5'>{tour.name}</h4>
-                <p className='mb-1 fw-lighter fs-6'>{tour.category}</p>
-                <div className='mb-2'style={{color: 'gold'}}>
+                  alt={`gambar destinasi wisata ${tour.name}`} />
+                <h4 tabIndex={0} className='fw-bold mb-1 mt-1 text-info fs-5'>{tour.name}</h4>
+                <p tabIndex={0} className='mb-1 fw-lighter fs-6'>{tour.category}</p>
+                <div tabIndex={0} className='mb-2'style={{color: 'gold'}} aria-label='rating destinasi wisata'>
                   {Array(tour.rating).fill(<StarIcon className='star'/>)}
                 </div>
                 <button className='btn btn-info text-white mb-0' onClick={() => history.push(`/detail-tour/${tour._id}`)}>View More</button>
@@ -83,7 +84,7 @@ const MapTour = () => {
         ))}
         </ReactMapGL>
       </div>
-      <Gap height={20} />
+      <Gap height={40} />
     </div>
   )
 }

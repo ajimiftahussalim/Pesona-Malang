@@ -3,11 +3,11 @@ import { Logo2 } from '../../../assets';
 
 const Header = () => {
   return (
-    <div>
+    <header>
       <nav className='navbar navbar-expand-lg navbar-light fixed-top' style={{backgroundColor: '#fff'}}>
         <div className='container d-flex'>
           <div className='navbar-brand mx-3 flex-grow-1 p-2'>
-            <a href='/' style={{width: '60px', height: '60px'}}>
+            <a href='/' className='py-3'>
               <img src={Logo2} width='60' height='60' className='d-inline-block align-center' alt='logo pesona malang' />
             </a>
           </div>
@@ -31,7 +31,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   )
 }
 

@@ -14,8 +14,9 @@ import './mainApp.scss';
 const MainApp = () => {
   return (
     <div className='main-app-wrapper'>
+      <a tabIndex={0} href='#mainContent' className='skip-link'>Go to Content</a>
       <Header />
-      <div className='content-wrapper'>
+      <main id='mainContent' className='content-wrapper'>
         <Router>
           <Switch>
             <Route path="/list-tour">
@@ -38,7 +39,7 @@ const MainApp = () => {
             </Route>
           </Switch>
         </Router>
-      </div>
+      </main>
       <Footer />
     </div>
   )
