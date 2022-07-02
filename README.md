@@ -14,11 +14,11 @@
   <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/354259/react.svg" alt="reactjs" width="40" height="40"/></a>&ensp;
   <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/353498/bootstrap.svg" alt="html5" width="40" height="40"/></a>&ensp; 
   <a href="https://www.mapbox.com/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/331476/mapbox.svg" alt="mapbox" width="40" height="40"/></a>&ensp;
-  <a href="https://www.mapbox.com/" target="_blank" rel="noreferrer"> <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/workbox_icon_131872.png" alt="mapbox" width="40" height="40"/></a>&ensp;
-  <a href="https://www.mapbox.com/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--E7SQLjAt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5d14su1hfqzbeqa2qhbr.png" alt="mapbox"  height="40"/></a>&ensp;
-  <a href="https://www.mapbox.com/" target="_blank" rel="noreferrer"> <img src="https://sweetalert2.github.io/images/SweetAlert2.png" alt="mapbox"  height="40"/></a>&ensp;
-  <a href="https://www.mapbox.com/" target="_blank" rel="noreferrer"> <img src="https://i0.wp.com/blog.fontawesome.com/wp-content/uploads/2020/08/Proposed.png?resize=720%2C480&ssl=1" alt="mapbox"  height="40"/></a>&ensp;
-  <a href="https://www.mapbox.com/" target="_blank" rel="noreferrer"> <img src="https://v4.mui.com/static/logo.png" alt="mapbox"  height="40"/></a>&ensp;
+  <a href="https://developer.chrome.com/docs/workbox/" target="_blank" rel="noreferrer"> <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/workbox_icon_131872.png" alt="workbox" width="40" height="40"/></a>&ensp;
+  <a href="https://www.emailjs.com/" target="_blank" rel="noreferrer"> <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--E7SQLjAt--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5d14su1hfqzbeqa2qhbr.png" alt="emailjs"  height="40"/></a>&ensp;
+  <a href="https://sweetalert2.github.io/" target="_blank" rel="noreferrer"> <img src="https://sweetalert2.github.io/images/SweetAlert2.png" alt="sweetalert2"  height="40"/></a>&ensp;
+  <a href="https://fontawesome.com/" target="_blank" rel="noreferrer"> <img src="https://i0.wp.com/blog.fontawesome.com/wp-content/uploads/2020/08/Proposed.png?resize=720%2C480&ssl=1" alt="fontawesome"  height="40"/></a>&ensp;
+  <a href="https://mui.com/" target="_blank" rel="noreferrer"> <img src="https://v4.mui.com/static/logo.png" alt="mui"  height="40"/></a>&ensp;
  </p>
 
 ## Table of contents
