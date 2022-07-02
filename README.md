@@ -12,6 +12,7 @@
 <h2 align="left">Core stack used</h2>
 <p align="left">
   <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/354259/react.svg" alt="reactjs" width="40" height="40"/></a>&ensp;
+  <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"> <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg" alt="nodejs" width="40" height="40"/></a>&ensp;
   <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/353498/bootstrap.svg" alt="html5" width="40" height="40"/></a>&ensp; 
   <a href="https://www.mapbox.com/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/331476/mapbox.svg" alt="mapbox" width="40" height="40"/></a>&ensp;
   <a href="https://developer.chrome.com/docs/workbox/" target="_blank" rel="noreferrer"> <img src="https://cdn.icon-icons.com/icons2/2148/PNG/512/workbox_icon_131872.png" alt="workbox" width="40" height="40"/></a>&ensp;
