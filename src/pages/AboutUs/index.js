@@ -13,18 +13,18 @@ const AboutUs = () => {
       <div className='container col-xxl-8 px-4'>
         <h2 tabIndex={0} className='text-center text-info fw-bold'>Tentang Kami</h2>
         <div className='row flex-lg-row-reverse align-items-center g-5 py-2'>
-          <div className='col-lg-6'>
+          <div className='col-lg-6 mx-auto'>
             <img 
               tabIndex={0} 
               src={Logo} 
-              class='d-block mx-lg-auto img-fluid' 
+              class='d-block mx-auto img-fluid' 
               alt='logo pesona malang' 
               width='400' 
               height='400' 
               loading='lazy' 
             />
           </div>
-          <div className='col-lg-6 mt-1'>
+          <div className='col-lg-6'>
             <p tabIndex={0} className='lead'>Pesona Malang merupakan sebuah website sistem informasi
               Destinasi Wisata Kota Malang, yang memberikan kumpulan
               informasi destinasi wisata di kota Malang yang lengkap,
