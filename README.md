@@ -21,6 +21,16 @@
   <a href="https://fontawesome.com/" target="_blank" rel="noreferrer"> <img src="https://i0.wp.com/blog.fontawesome.com/wp-content/uploads/2020/08/Proposed.png?resize=720%2C480&ssl=1" alt="fontawesome"  height="40"/></a>&ensp;
   <a href="https://mui.com/" target="_blank" rel="noreferrer"> <img src="https://v4.mui.com/static/logo.png" alt="mui"  height="40"/></a>&ensp;
  </p>
+ 
+ ## Feature
+- Home
+- Daftar Destinasi Wisata
+- Detail Destinasi Wisata
+- Pemetaan Geografis Destinasi Wisata di Kota Malang
+- Detail Pin (Marker) pada Pemetaan Geografis Destinasi Wisata
+- Hubungi Kami
+- Tentang Kami
+- Progressive Web Apps (PWA)
 
 ## Table of contents
 
@@ -31,6 +41,7 @@
 - [Hubungi Kami](#hubungi-kami)
 - [Tentang Kami](#tentang-kami)
 - [Credit](#credit)
+- [Team Member](#team-member)
 
 ## Home
 
