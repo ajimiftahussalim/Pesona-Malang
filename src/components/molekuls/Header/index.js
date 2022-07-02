@@ -23,7 +23,7 @@ const Header = () => {
           <div className='collapse navbar-collapse justify-content-end' id='navbarNavAltMarkup'>
             <div className='navbar-nav fw-bold'>
               <a className='nav-link text-center mx-2 p-3' href='/'>Home</a>
-              <a className='nav-link text-center mx-2 p-3' href='/list-tour'>List Wisata</a>
+              <a className='nav-link text-center mx-2 p-3' href='/list-tour'>Daftar Wisata</a>
               <a className='nav-link text-center mx-2 p-3' href='/map-tours'>Map Wisata</a>
               <a className='nav-link text-center mx-2 p-3' href='/contact-us'>Hubungi Kami</a>
               <a className='nav-link text-center mx-2 p-3' href='/about-us'>Tentang Kami</a>

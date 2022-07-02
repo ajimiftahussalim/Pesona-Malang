@@ -1,5 +1,6 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
+import SearchIcon from '@mui/icons-material/Search';
 
 const Jumbotron = ({img}) => {
 const history = useHistory();
@@ -11,12 +12,12 @@ const history = useHistory();
             <img tabIndex={0} src={img} className='d-block mx-lg-auto img-fluid' alt='gambar ilustrasi destinasi wisata' width='700' height='500' loading='lazy' />
           </div>
           <div className='col-lg-6'>
-            <p tabIndex={0} className='fs-5'>Bingung mau healing kemana?</p>
+            <p tabIndex={0} className='fs-5'>Bingung mau liburan kemana?</p>
             <h2 tabIndex={0} className='display-5 fw-bold lh-1 mb-3'>Temukan Destinasi Wisata Terbaik di <span className='text-info'>Kota Malang</span></h2>
             <p tabIndex={0} className='fw-lighter fs-6'>Dengan referensi yang lengkap akan memudahkan kamu untuk memilih
               destinasi wisata mana yang ingin kamu kunjungi.
             </p>
-            <button className='btn btn-info px-4 text-white' style={{padding: '10px 0'}} onClick={() => history.push('/list-tour')}>Search Now</button>
+            <button className='btn btn-info px-4 text-white fw-400' style={{padding: '10px 0'}} onClick={() => history.push('/list-tour')}><SearchIcon />Cari Wisata</button>
           </div>
         </div>
       </div>

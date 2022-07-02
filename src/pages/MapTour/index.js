@@ -3,9 +3,10 @@ import ReactMapGL, { Marker, Popup } from 'react-map-gl';
 import RoomIcon from '@mui/icons-material/Room';
 import StarIcon from '@mui/icons-material/Star';
 import { useDispatch, useSelector } from 'react-redux';
-import { setDataTour } from '../../config/redux/action';
+import { setDataMapTour } from '../../config/redux/action';
 import { Gap } from '../../components';
 import { useHistory } from 'react-router-dom';
+import './mapTour.scss';
 
 const MapTour = () => {
   const history = useHistory();
@@ -18,11 +19,11 @@ const MapTour = () => {
     height: '70vh',
     latitude: -7.983908,
     longitude: 112.621391,
-    zoom: 10,
+    zoom: 8,
   });
 
   useEffect(() => {
-    dispatch(setDataTour(counter))
+    dispatch(setDataMapTour(counter))
   }, [counter, dispatch])
 
   const handleMarkerClick = (id) => {
@@ -37,7 +38,7 @@ const MapTour = () => {
           {...viewport}
           mapboxApiAccessToken='pk.eyJ1Ijoid2VzaGxhIiwiYSI6ImNsNGYxbGV5czA0ZHIzY255bWxhMzZjaXcifQ.P56VGiSAWuMynD38I-PUIg'
           onViewportChange={nextViewport => setViewport(nextViewport)} 
-          mapStyle='mapbox://styles/mapbox/satellite-streets-v11'
+          mapStyle='mapbox://styles/mapbox/streets-v9'
         >
         {dataTour.map((tour) => (
           <>
@@ -47,9 +48,10 @@ const MapTour = () => {
               offsetLeft={-20}
               offsetTop={-10}
               key={tour._id}
+              
             >
             <RoomIcon
-              style={{fontSize:viewport.zoom*3, color: 'tomato', cursor: 'pointer'}}
+              style={{fontSize:viewport.zoom*3, color: 'tomato', cursor: 'pointer',position: 'relative' , zIndex: '0'}}
               onClick={() => handleMarkerClick(tour._id)}
             />
             </Marker>
@@ -62,8 +64,9 @@ const MapTour = () => {
               anchor='left'
               maxWidth='100px'
               onClose={() => setCurrentPlaceId(null)}
+              className='card-box'
             > 
-              <div className='p-2' style={{width: '200px'}}>
+              <div className='p-2' style={{width: '200px', position: 'relative', zIndex: '1000'}}>
                 <img 
                   tabIndex={0}
                   src={`http://localhost:4000/${tour.image}`} 
@@ -83,6 +86,15 @@ const MapTour = () => {
           </>
         ))}
         </ReactMapGL>
+        <div>
+          <h2 className='fs-5 mt-3'>Petunjuk :</h2>
+          <ul className='fw-lighter'>
+            <li>Scroll Up : untuk memperbesar tampilan map (zoom in).</li>
+            <li>Scroll Down : untuk memperkecil tampilan map (zoom out).</li>
+            <li>Klik Pin (Marker) : untuk mengetahui detail informasi mengenai Pin (Marker) tersebut.</li>
+            <li>Tahan Klik pada Map : untuk mengeser map.</li>
+          </ul>
+        </div>
       </div>
       <Gap height={40} />
     </div>

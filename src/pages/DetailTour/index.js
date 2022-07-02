@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import { Gap } from '../../components';
-import { withRouter } from 'react-router-dom';
+import { withRouter, useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons';
 import StarIcon from '@mui/icons-material/Star';
 import Axios from 'axios';
 
 const DetailTour = (props) => {
+  let history = useHistory();
   const backIcon = <FontAwesomeIcon icon={faArrowCircleLeft} />
   const [data, setData] = useState({})
   useEffect(() => {
@@ -35,7 +36,7 @@ const DetailTour = (props) => {
     <Gap height={120} />
     <div className='container col-xxl-8 px-4'>
       <div className='d-flex justify-content-end mt-0'>
-        <a href='/list-tour' className='p-2 px-3 text-muted fs-3'>{backIcon}</a>
+        <button className='btn btn-none p-2 px-3 text-muted fs-3' onClick={history.goBack}>{backIcon}</button>
       </div>
       <div className='row flex-lg-row g-5 py-5'>
         <div className='col-10 col-sm-8 col-lg-6 mt-2'>

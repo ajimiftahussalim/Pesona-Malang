@@ -18,25 +18,25 @@ const Footer = () => {
                   <a
                     className='btn btn-outline-light btn-floating text-primary'
                     style={{padding: '10px'}}
-                    href='/'
+                    href='https://m.facebook.com/Pesona-Malang-Apps-107547588680266/'
                     role='button'><FacebookIcon />
                   </a>
                   <a
                     className='btn btn-outline-light btn-floating text-info'
                     style={{padding: '10px'}}
-                    href='/'
+                    href='https://mobile.twitter.com/Pesonamalang6'
                     role='button'><TwitterIcon />
                   </a>
                   <a
                     className='btn btn-outline-light btn-floating text-danger'
                     style={{padding: '10px'}}
-                    href='/'
+                    href='https://www.youtube.com/channel/UCuK0QS0b1qcydumBg31xcZw'
                     role='button'><YouTubeIcon />
                   </a>
                   <a
                     className='btn btn-outline-light btn-floating'
                     style={{color: '#833AB4', padding: '10px'}}
-                    href='/'
+                    href='https://www.instagram.com/pesonamalangapps/'
                     role='button'><InstagramIcon />
                   </a>
                 </div>
@@ -45,20 +45,20 @@ const Footer = () => {
               <div className='col-md-6 col-lg-5 mt-3'>
                 <h6 tabIndex={0} className='text-uppercase mb-4 fw-bold'>Sistem Informasi dan Pemetaan Geografis Destinasi Wisata Kota Malang</h6>
                 <p tabIndex={0} className='fw-lighter'>
-                  Memberikan referensi yang lengkap terkait destinasi wisata di kota malang yang akan
+                  Memberikan referensi yang lengkap terkait destinasi wisata di kota Malang, yang akan
                   memudahkan kamu untuk memilih destinasi wisata mana yang ingin kamu kunjungi.
                 </p>
               </div>
               <hr className='w-100 clearfix d-md-none' />
               <div className='col-md-3 col-lg-2 col-xl-2 mx-auto mt-3'>
                 <h6 tabIndex={0} className='text-uppercase mb-4 fw-bold'>
-                  Navigation
+                  Navigasi
                 </h6>
                 <p>
                   <a href='/' className='text-decoration-none text-info py-3'>Home</a>
                 </p>
                 <p>
-                  <a href='/list-tour' className='text-decoration-none text-info py-3'>List Wisata</a>
+                  <a href='/list-tour' className='text-decoration-none text-info py-3'>Daftar Wisata</a>
                 </p>
                 <p>
                   <a href='/map-tour' className='text-decoration-none text-info py-3'>Map Wisata</a>

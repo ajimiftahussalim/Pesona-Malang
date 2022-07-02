@@ -37,7 +37,7 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-      <div className='p-2 bg-info mt-3'>
+      <div className='p-2 bg-info mt-4'>
         <h2 tabIndex={0} className='text-center mt-4 text-white'>Tim Kami</h2>
         <div className='container mb-4 mx-auto'>
           <div className='row'>
@@ -60,7 +60,7 @@ const AboutUs = () => {
                     <a href='https://www.linkedin.com/in/eko-rahayu-widodo-989416231/' className='mb-0 m-1 align-center' style={{padding: '12px 10px'}}><LinkedInIcon /></a>
                     <a href='https://wa.me/628813536127' className='mb-0 m-1 text-success align-center' style={{padding: '12px 10px'}}><WhatsAppIcon /></a>
                     <a href='mailto:ekorahy@gmail.com' className='mb-0 m-1 text-danger align-center' style={{padding: '12px 10px'}}><EmailIcon /></a>
-                    <a href='https://github.com/ekorahy' className='mb-0 m-1 text-dar align-center' style={{padding: '12px 10px'}}><GitHubIcon /></a>
+                    <a href='https://github.com/ekorahy' className='mb-0 m-1 text-dark align-center' style={{padding: '12px 10px'}}><GitHubIcon /></a>
                   </div>
               </div>
             </div>
@@ -83,7 +83,7 @@ const AboutUs = () => {
                   <a href='https://www.linkedin.com/in/faisalramdhanii' className='mb-0 m-1 align-center' style={{padding: '12px 10px'}}><LinkedInIcon /></a>
                   <a href='https://wa.me/628817895164' className='mb-0 m-1 text-success align-center' style={{padding: '12px 10px'}}><WhatsAppIcon /></a>
                   <a href='mailto:faisalramdhani1316@gmail.com' className='mb-0 m-1 text-danger align-center' style={{padding: '12px 10px'}}><EmailIcon /></a>
-                  <a href='https://github.com/faisalramdhani13' className='mb-0 m-1 text-dar align-center' style={{padding: '12px 10px'}}><GitHubIcon /></a>
+                  <a href='https://github.com/faisalramdhani13' className='mb-0 m-1 text-dark align-center' style={{padding: '12px 10px'}}><GitHubIcon /></a>
                 </div>
               </div>
             </div>
@@ -107,7 +107,7 @@ const AboutUs = () => {
                   <a href='https://www.linkedin.com/in/aji-miftahus-salim-8456a121a' className='mb-0 m-1 align-center' style={{padding: '12px 10px'}}><LinkedInIcon /></a>
                   <a href='https://wa.me/6282218827066' className='mb-0 m-1 text-success align-center' style={{padding: '12px 10px'}}><WhatsAppIcon /></a>
                   <a href='mailto:ajimiftahussalim15@gmail.com' className='mb-0 m-1 text-danger align-center' style={{padding: '12px 10px'}}><EmailIcon /></a>
-                  <a href='https://github.com/ajimiftahussalim' className='mb-0 m-1 text-dar align-center' style={{padding: '12px 10px'}}><GitHubIcon /></a>
+                  <a href='https://github.com/ajimiftahussalim' className='mb-0 m-1 text-dark align-center' style={{padding: '12px 10px'}}><GitHubIcon /></a>
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ const AboutUs = () => {
                   <a href='https://www.linkedin.com/in/dishanubari-pramudia-682409231/' className='mb-0 m-1 align-center' style={{padding: '12px 10px'}}><LinkedInIcon /></a>
                   <a href='https://wa.me/6282120207290' className='mb-0 m-1 text-success align-center' style={{padding: '12px 10px'}}><WhatsAppIcon /></a>
                   <a href='mailto:dishanubaripramudiaa@gmail.com' className='mb-0 m-1 text-danger align-center' style={{padding: '12px 10px'}}><EmailIcon /></a>
-                  <a href='https://github.com/dishanubari' className='mb-0 m-1 text-dar align-center' style={{padding: '12px 10px'}}><GitHubIcon /></a>
+                  <a href='https://github.com/dishanubari' className='mb-0 m-1 text-dark align-center' style={{padding: '12px 10px'}}><GitHubIcon /></a>
                 </div>
               </div>
             </div>

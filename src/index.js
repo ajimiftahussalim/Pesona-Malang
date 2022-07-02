@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'mapbox-gl/dist/mapbox-gl.css';
 import App from './pages/App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
