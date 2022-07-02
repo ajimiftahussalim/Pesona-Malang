@@ -64,7 +64,7 @@ const Footer = () => {
                   <a href='/map-tour' className='text-decoration-none text-info py-3'>Map Wisata</a>
                 </p>
                 <p>
-                  <a href='/about-us' className='text-decoration-none text-info py-3'>Hubungi Kami</a>
+                  <a href='/contact-us' className='text-decoration-none text-info py-3'>Hubungi Kami</a>
                 </p>
                 <p>
                   <a href='/about-us' className='text-decoration-none text-info py-3'>Tentang Kami</a>
