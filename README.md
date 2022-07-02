@@ -1,15 +1,62 @@
-# Pesona-Malang
-Sistem Informasi dan Pemetaan Geografis Destinasi Wisata di Kota Malang
+<p align="center">
+  <a href="https://pesonamalang.netlify.app/">
+    <img src="https://user-images.githubusercontent.com/100954726/177002575-81335c75-b71f-4b32-9442-c9029e845f67.png" alt="Logo" width=120 height=120>
+  </a>
+  <h3 align="center">Pesona Malang</h3>
+  <p align="center">Sistem Informasi dan Pemetaan Geografis Destinasi Wisata Kota Malang</p>
+  <p align="center">
+    Aplikasi ini dapat diakses <a href="https://pesonamalang.netlify.app/">di sini</a>
+  </p>
+</p>
 
-## Design UI/UX Website V.02
-### Tampilan Untuk User
-* Halaman Home
-![Desktop - Home Page(1)](https://user-images.githubusercontent.com/100954726/173113768-70a8fd45-edc0-4443-a0be-cdeb51464d1c.png)
-* Halaman List Wisata
-![Desktop - List Wisata berdasarkan museum(1)](https://user-images.githubusercontent.com/100954726/173114269-e79ca0e5-645f-4785-8144-c283ec840c75.png)
-* Halaman Detail Destinasi Wisata
-![Desktop - Detail Destinasi Wisata](https://user-images.githubusercontent.com/100954726/173114426-6e940bff-b090-4e67-8840-59a2a028a759.png)
-* Halaman Mapping Seluruh Destinasi Wisata
-![Desktop - Mapping seluruh Wisata Page](https://user-images.githubusercontent.com/100954726/173114600-7b15c226-acdb-43c9-8d53-bbadf7f74fa9.png)
-* Halaman Tentang Kami
-![Desktop - Tentang Kami](https://user-images.githubusercontent.com/100954726/173115503-8bc3eafc-591d-4582-8133-e37a35dc3392.png)
+<h3 align="left">Stack use:</h3>
+<p align="left">
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/354259/react.svg" alt="reactjs" width="40" height="40"/> </a>   <a href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/353498/bootstrap.svg" alt="html5" width="40"      height="40"/> </a> 
+  <a href="https://www.mapbox.com/" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/331476/mapbox.svg" alt="mapbox" width="40" height="40"/> </a> 
+ </p>
+
+## Table of contents
+
+- [Home](#home)
+- [Daftar Wisata](#daftar-wisata)
+- [Detail Wisata](#detail-wisata)
+- [Map Wisata](#map-wisata)
+- [Hubungi Kami](#hubungi-kami)
+- [Tentang Kami](#tentang-kami)
+- [Credit](#credit)
+
+## Home
+
+   <img alt="Home" src="https://user-images.githubusercontent.com/100954726/177007239-c269470f-125d-468e-8cdd-8e7f733d8f00.png"  width=514>
+
+## Daftar Wisata
+
+   <img alt="Daftar Wisata" src="https://user-images.githubusercontent.com/100954726/177007301-ade38b27-c067-444b-afcb-c1cab9814881.png" width=514>
+
+## Detail Wisata
+
+  <img alt="Detail Wisata" src="https://user-images.githubusercontent.com/100954726/177007352-aceeff06-1332-4cc8-ae0e-ec80096dbc95.png" width=512>
+
+## Map Wisata
+
+   <img alt="Map Wisata" src="https://user-images.githubusercontent.com/100954726/177007384-5c1ec29d-12d8-4164-9883-7e68426cc54c.png" width=512>
+   
+## Hubungi Kami
+
+   <img alt="Hubungi Kami" src="https://user-images.githubusercontent.com/100954726/177007426-b12acd8e-7186-4526-9532-5debaedbf343.png" width=512>
+
+## Tentang Kami
+
+   <img alt="Tentang Kami" src="https://user-images.githubusercontent.com/100954726/177007470-f7411500-498a-461f-8205-7c5637672f70.png" width=512>
+
+## Credit
+- axios
+- react js
+- bootstrap
+- sweetalert
+- emailjs-com
+- mapbox-gl
+- fortawesome
+- mui
+- react-router-dom
+
